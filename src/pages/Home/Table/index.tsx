@@ -50,7 +50,7 @@ function Table({ products, getProducts, setProducts }: TableProps) {
                 <td className="text-gray-500 p-3 ">{product.title}</td>
                 <td className="text-gray-500 p-3 ">{product.image}</td>
                 <td className="text-gray-500 p-3 ">{product.category}</td>
-                <td className="text-gray-500 p-3 ">{product.price}</td>
+                <td className="text-gray-500 p-3 ">R${product.price}</td>
                 <td className="text-gray-500 p-3 ">
                   <div className="flex gap-2">
                     <Button
